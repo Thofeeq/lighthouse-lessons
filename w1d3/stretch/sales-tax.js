@@ -60,7 +60,6 @@ function calculateSalesTax(salesData, taxRates)
        }
        else
        {
-
           for(x = 0; x < salesData[j]["sales"].length; x++)
          {
          

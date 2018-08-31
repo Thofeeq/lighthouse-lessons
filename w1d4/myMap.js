@@ -7,10 +7,7 @@ function myMap(arr, func)
 {
   newArray = [];
   arr.forEach(function(element){newArray.push(func(element))})
-
-  
   return newArray;
-
 }
 
 
